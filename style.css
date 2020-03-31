@@ -64,10 +64,10 @@ img {
 	background-position-x: -480px; 
 	background-size: auto 100%;
 	background-repeat: no-repeat;
-	transition: 0.2s;
+	transition: 0.35s ease-in-out;
 }
 .link-container:hover .overlay{
-	transition: 0.4s;
+	transition: 0.45s ease-in-out;
 	background-position-x: 100%;
 }
 .info {
