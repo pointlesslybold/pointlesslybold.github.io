@@ -50,6 +50,8 @@ img {
 .link-container:hover{
 	transition: 0.3s;
 	transform: scale(1.05);
+	animation: glowmove ease 1s;
+	background: url("./glow.png") 0px 0px/auto 100% no-repeat;
 }
 .info {
 	padding: 12px;
@@ -60,4 +62,12 @@ img {
 	margin: 0px;
 	padding: 8px 0px 3px 0px;
 	font-size: 12px;
+}
+@keyframes glowmove{
+	0%{
+		background-position-y: calc(0% - 480px); 
+	}
+	100%{
+		background-position-y: calc(100% + 480px);
+	}
 }
