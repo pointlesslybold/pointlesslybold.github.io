@@ -47,6 +47,10 @@ img {
     text-decoration: none;
     transition: 0.3s;
 }
+.link-container:hover{
+	transition: 0.3s;
+	transform: scale(1.05);
+}
 .info {
 	padding: 12px;
 	background: #151515;
