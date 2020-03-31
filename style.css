@@ -64,11 +64,11 @@ img {
 	background-position-x: -480px; 
 	background-size: auto 100%;
 	background-repeat: no-repeat;
-	transition: 0.6s;
+	transition: 0.2s;
 }
 .link-container:hover .overlay{
-	transition: 0.1s;
-	background-position-x: 480px;
+	transition: 0.4s;
+	background-position-x: 100%;
 }
 .info {
 	padding: 12px;
