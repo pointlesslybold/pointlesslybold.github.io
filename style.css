@@ -69,6 +69,7 @@ img {
 .link-container:hover .overlay{
 	transition: 0.45s ease-in-out;
 	background-position-x: 100%;
+	box-shadow: rgba(255, 255, 255, 0.9) 0px 0px 8px 0px inset;
 }
 .info {
 	padding: 12px;
