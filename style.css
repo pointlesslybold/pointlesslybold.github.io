@@ -45,6 +45,7 @@ img {
 	width: 480px;
 	text-decoration: none;
 	transition: 0.3s;
+	background-color: #151515;
 	background-image: url("./glow.png");
 	background-position-y: 0px;
 	background-size: auto 100%;
@@ -57,7 +58,6 @@ img {
 }
 .info {
 	padding: 12px;
-	background: #151515;
 	color: #FFF;
 }
 .description {
