@@ -51,7 +51,7 @@ img {
 	transform: scale(1.05);
 	animation: glowmove ease 1s;
 	background-image: url("./glow.png");
-	background-position-x: 0px;
+	background-position-y: 0px;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 }
@@ -67,9 +67,9 @@ img {
 }
 @keyframes glowmove{
 	0%{
-		background-position-y: calc(0% - 480px); 
+		background-position-x: 0%; 
 	}
 	100%{
-		background-position-y: calc(100% + 480px);
+		background-position-x: 100%;
 	}
 }
