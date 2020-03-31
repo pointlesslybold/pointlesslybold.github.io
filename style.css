@@ -50,7 +50,10 @@ img {
 	transition: 0.3s;
 	transform: scale(1.05);
 	animation: glowmove ease 1s;
-	background: url("./glow.png") 0px 0px/auto 100% no-repeat;
+	background-image: url("./glow.png");
+	background-position-x: 0px;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 .info {
 	padding: 12px;
